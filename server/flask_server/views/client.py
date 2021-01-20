@@ -4,4 +4,4 @@ from flask import current_app as app
 
 @app.route("/")
 def index():
-    return jsonify("Worked")
+    return jsonify("Great Success!")

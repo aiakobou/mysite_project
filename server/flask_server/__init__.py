@@ -11,7 +11,7 @@ socketio = SocketIO()
 
 def _uncaught_exception_handler(_):
     if has_request_context():
-        app.logger.exception(f"Uncaught exception during {request.method} "
+        app.logger.exception(f"Uncaught exception during {request.method}" 
                              f"request to {request.full_path}")
     else:
         print(f"PPPUncaught exception")
